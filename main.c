@@ -165,7 +165,7 @@ int main(int argc, char* argv[]) {
         }
     }
 
-  //  fclose(file);
+    fclose(file);
     pthread_t threadId2;
     returnValue = pthread_create(&threadId2, NULL, createDispatcher, NULL);
 
